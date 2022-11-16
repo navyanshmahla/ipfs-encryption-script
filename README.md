@@ -28,5 +28,7 @@ optional arguments:
                         File.txt or Directory
   -n NAME, --name NAME  Set encrypted output filename
 ```
-A note from me: Navyansh
-This IPFS script works all fine apart from the fact that the decryption keys can be easily accessible even to the wallet with whom you don't want to share your data. Once even a single person (that you've allowed to get the decryption keys to access the data) has the keys, can share it to anyone and even that person can access them. In this case, it requires some more modifications regarding how we use this script. We must add feeatures of user consent protocol where a particular person requests for the file and then you accept that request to allow him to see the data. This is something that I plan to achieve.
+### A note from me: (Navyansh) <br>
+This IPFS script works all fine apart from the fact that the decryption keys can be easily accessible even to the wallet with whom you don't want to share your data. Once even a single person (that you've allowed to get the decryption keys to access the data) has the keys, can share it to anyone and even that person can access them. <br>
+In this case, it requires some more modifications regarding how we use this script. We must add feeatures of user consent protocol where a particular person requests for the file and then you accept that request to allow him to see the data. This is something that I plan to achieve.<br>
+However, in order to solve this issue it is best to introduce some functions in the smart contract of the dApp itself. This would be a bit hectic as it will be long manual process, so I'll be adding some more code to this repo (or make another separate repo to it) which you can just copy paste to your dApp's source code in order to use.
